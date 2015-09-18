@@ -15,9 +15,16 @@ body {
   margin: 0;
 }
 
+.logo {
+  float: left;
+  width: 10%;
+  margin-left: 1em;
+}
+
 h1 {
   font-size: 2em;
   text-align: center;
+  width: 100%;
 }
 
 nav {
@@ -201,7 +208,23 @@ ol {
   float: right;
 }
 
+.show-times {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 0.5em;
+  border: 1px solid #000;
+  border-radius: 0.5em;
+  margin-top: 1em;
+}
+
 footer {
   background-color: #b2b2b2;
   padding: 1em;
+}
+
+.plato {
+  text-align: left;
 }

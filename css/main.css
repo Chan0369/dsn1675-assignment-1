@@ -80,6 +80,30 @@ h2 {
   margin: 0em 1em 1em 1em;
 }
 
+.babylon {
+    margin: 0em 1em 1em 1em;
+}
+
+.artemis {
+  margin: 0em 1em 1em 1em;
+}
+
+.olympia {
+  margin: 0em 1em 1em 1em;
+}
+
+.halicarnassus {
+  margin: 0em 1em 1em 1em;
+}
+
+.rhodes {
+  margin: 0em 1em 1em 1em;
+}
+
+.lighthouse {
+  margin: 0em 1em 1em 1em;
+}
+
 dl {
   margin: 0.5em;
   text-align: left;
@@ -109,6 +133,7 @@ dd {
 p {
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 .atlantis-pic {
@@ -119,7 +144,7 @@ p {
   position: absolute;
   text-align: center;
   width: 100%;
-  top: 360em;
+  top: 305em;
 }
 
 .learn-more {

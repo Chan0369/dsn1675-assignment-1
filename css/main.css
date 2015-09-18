@@ -66,11 +66,13 @@ nav a:hover {
 h2 {
   font-size: 1.5em;
   text-align: center;
+  padding: 1em 1em 0em 1em;
+  margin: 0;
 }
 
 .seven-pics {
   display: inline-block;
-  margin: 1em 1em 0em 1em;
+  margin: 0em 1em 0em 1em;
   padding: 1em;
   width: 94%;
   text-align: center;
@@ -138,13 +140,14 @@ p {
 
 .atlantis-pic {
   position: relative;
+  margin-top: 1em;
 }
 
 .atlantis {
   position: absolute;
   text-align: center;
   width: 100%;
-  top: 305em;
+  top: 295em;
 }
 
 .learn-more {
@@ -162,6 +165,10 @@ p {
 h3 {
   padding: 0.5em;
   margin: 0;
+}
+
+.visit {
+  text-align: center;
 }
 
 ol {

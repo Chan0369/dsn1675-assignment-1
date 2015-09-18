@@ -78,10 +78,10 @@ h2 {
 }
 
 .seven-pics {
-  display: inline-block;
-  margin: 0em 1em 0em 1em;
-  padding: 1em;
-  width: 94%;
+  display: block;
+  margin: 1em 0em 1em 0em;
+  padding: 1em 0em 1em 0em;
+  width: 100%;
   text-align: center;
 }
 
@@ -145,16 +145,16 @@ p {
   text-align: center;
 }
 
-.atlantis-pic {
+.atlantis {
   position: relative;
   margin-top: 1em;
 }
 
-.atlantis {
+.atlantis-text {
   position: absolute;
   text-align: center;
   width: 100%;
-  top: 300em;
+  bottom: 2em;
 }
 
 .learn-more {
@@ -182,6 +182,7 @@ ol {
   list-style-type: none;
   padding: 0;
   overflow: hidden;
+  text-decoration: none;
 }
 
 .adult {
@@ -222,7 +223,7 @@ ol {
 
 footer {
   background-color: #b2b2b2;
-  padding: 1em;
+  padding: 1em
 }
 
 .hours {
@@ -235,4 +236,8 @@ footer {
 
 .plato {
   text-align: left;
+}
+
+.footerlinks a {
+  text-decoration: none;
 }

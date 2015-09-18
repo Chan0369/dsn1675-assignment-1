@@ -27,6 +27,17 @@ h1 {
   width: 100%;
 }
 
+.buy {
+  display: block;
+  width: 15%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 0.5em;
+  border: 1px solid #000;
+  border-radius: 0.5em;
+}
+
 nav {
   text-align: center;
   overflow: hidden;

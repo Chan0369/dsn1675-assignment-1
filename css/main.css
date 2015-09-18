@@ -70,14 +70,44 @@ h2 {
 
 .seven-pics {
   display: inline-block;
-  margin: 1em;
+  margin: 1em 1em 0em 1em;
   padding: 1em;
-  width: 95%;
+  width: 94%;
   text-align: center;
 }
 
+.giza {
+  margin: 0em 1em 1em 1em;
+}
+
+dl {
+  margin: 0.5em;
+  text-align: left;
+}
+
+dd {
+  margin: 0;
+  text-align: left;
+  padding-bottom: 2em;
+}
+
+.date {
+  width: 33.33%;
+  float: left;
+}
+
+.builders {
+  width: 33.33%;
+  float: left;
+}
+
+.locaton {
+  width: 33.33%;
+  float: left;
+}
+
 p {
-  padding: 1em;
+  padding: 0;
   margin: 0;
 }
 
@@ -89,7 +119,7 @@ p {
   position: absolute;
   text-align: center;
   width: 100%;
-  top: 345em;
+  top: 360em;
 }
 
 .learn-more {
@@ -112,4 +142,34 @@ h3 {
 ol {
   list-style-type: none;
   padding: 0;
+  overflow: hidden;
+}
+
+.adult {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 0.5em;
+  border: 1px solid #000;
+  border-radius: 0.5em;
+  float:left;
+}
+
+.kids {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 0.5em;
+  border: 1px solid #000;
+  border-radius: 0.5em;
+  float: right;
+}
+
+footer {
+  background-color: #b2b2b2;
+  padding: 1em;
 }

@@ -16,7 +16,7 @@ body {
 }
 
 .logo {
-  float: left;
+  position: absolute;
   width: 10%;
   margin-left: 1em;
 }
@@ -58,15 +58,17 @@ nav a:hover {
   background-color: #a93f35;
 }
 
-.heading {
-  position:relative;
+
+.title-text {
+  position: absolute;
+  bottom: 3em;
+  width: 100%;
 }
 
 .seven-wonders {
-  position: absolute;
+  position: relative;
   text-align: center;
   width: 100%;
-  top: 16em;
   color: #fff;
 }
 
@@ -158,7 +160,7 @@ p {
 }
 
 .learn-more {
-  display: inline-block;
+  display: block;
   width: 50%;
   text-align: center;
   text-decoration: none;
@@ -166,7 +168,8 @@ p {
   padding: 0.5em;
   border: 1px solid #000;
   border-radius: 0.5em;
-  margin-left: 10em;
+  margin: 0em auto;
+  clear: both;
 }
 
 h3 {
@@ -183,6 +186,7 @@ ol {
   padding: 0;
   overflow: hidden;
   text-decoration: none;
+  margin: 1em;
 }
 
 .adult {
@@ -228,6 +232,7 @@ footer {
 
 .hours {
   float: left;
+  margin-right: 1em;
 }
 
 .directions {

@@ -71,10 +71,45 @@ h2 {
 .seven-pics {
   display: inline-block;
   margin: 1em;
+  padding: 1em;
   width: 95%;
   text-align: center;
 }
 
-h3 {
+p {
   padding: 1em;
+  margin: 0;
+}
+
+.atlantis-pic {
+  position: relative;
+}
+
+.atlantis {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 345em;
+}
+
+.learn-more {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 0.5em;
+  border: 1px solid #000;
+  border-radius: 0.5em;
+  margin-left: 10em;
+}
+
+h3 {
+  padding: 0.5em;
+  margin: 0;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
 }

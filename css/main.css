@@ -154,7 +154,7 @@ p {
   position: absolute;
   text-align: center;
   width: 100%;
-  top: 295em;
+  top: 300em;
 }
 
 .learn-more {
@@ -223,6 +223,14 @@ ol {
 footer {
   background-color: #b2b2b2;
   padding: 1em;
+}
+
+.hours {
+  float: left;
+}
+
+.directions {
+  float: left;
 }
 
 .plato {

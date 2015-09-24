@@ -325,4 +325,31 @@ footer {
 
 @media only screen and (min-width: 70em) {
 
+  .masthead {
+    float: left;
+    width: 30%;
+  }
+
+  main {
+    float: right;
+    width: 70%;
+  }
+
+  .logo {
+    display: block;
+    vertical-align: middle;
+  }
+
+  .title {
+
+  }
+
+  .nav {
+    text-align: left;
+  }
+
+  .nav li {
+    display: block;
+  }
+
 }

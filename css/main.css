@@ -297,10 +297,16 @@ footer {
 
   .left {
     float:left;
+    clear: both;
   }
 
   .right {
     float: right;
+    clear: both;
+  }
+
+  .price {
+    clear: both;
   }
 
 }

@@ -306,12 +306,14 @@ footer {
 
   .week {
     float: left;
-    width: 50%;
+    width: 46%;
+    margin: 1em;
   }
 
   .week2 {
     float: right;
-    width: 50%;
+    width: 46%;
+    margin: 1em;
   }
 
   footer {

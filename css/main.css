@@ -46,9 +46,9 @@ h1 {
   width: 15%;
   text-align: center;
   text-decoration: none;
-  background-color: darkgrey;
+  background-color: #eadece;
   padding: 0.5em;
-  border: 1px solid darkgrey;
+  border: 1px solid #eadece;
   border-radius: 0.5em;
   position: absolute;
   bottom: 4.25em;
@@ -58,7 +58,7 @@ h1 {
 nav {
 	height: 55px;
 	padding-top: 1em;
-	background-color: darkgrey;
+	background-color: #eadece;
 }
 
 nav li {
@@ -83,7 +83,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #a93f35;
+  background-color: #9d4c39;
 }
 
 
@@ -200,9 +200,9 @@ p {
   width: 50%;
   text-align: center;
   text-decoration: none;
-  background-color: grey;
+  background-color: #eadece;
   padding: 0.5em;
-  border: 1px solid grey;
+  border: 1px solid #eadece;
   border-radius: 0.5em;
   margin: 0em auto;
   clear: both;
@@ -230,9 +230,9 @@ ol {
   width: 48%;
   text-align: center;
   text-decoration: none;
-  background-color: grey;
+  background-color: #eadece;
   padding: 0.5em;
-  border: 1px solid grey;
+  border: 1px solid #eadece;
   border-radius: 0.5em;
   float:left;
 }
@@ -242,9 +242,9 @@ ol {
   width: 48%;
   text-align: center;
   text-decoration: none;
-  background-color: grey;
+  background-color: #eadece;
   padding: 0.5em;
-  border: 1px solid grey;
+  border: 1px solid #eadece;
   border-radius: 0.5em;
   float: right;
 }
@@ -254,15 +254,15 @@ ol {
   width: 30%;
   text-align: center;
   text-decoration: none;
-  background-color: grey;
+  background-color: #fff;
   padding: 0.5em;
-  border: 1px solid grey;
+  border: 1px solid #fff;
   border-radius: 0.5em;
   margin-top: 1em;
 }
 
 footer {
-  background-color: #b2b2b2;
+  background-color: #eadece;
   padding: 1em
 }
 
@@ -307,13 +307,13 @@ footer {
 
   .week {
     float: left;
-    width: 46%;
+    width: 45%;
     margin: 1em;
   }
 
   .week2 {
     float: right;
-    width: 46%;
+    width: 45%;
     margin: 1em;
   }
 

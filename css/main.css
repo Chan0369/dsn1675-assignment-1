@@ -285,28 +285,23 @@ footer {
 
 @media only screen and (min-width: 45em) {
 
-  .seven-pics {
-    float: left;
-    width: 50%;
-  }
-
-  .seven-pics2 {
-    float: right;
-    width: 50%;
-  }
-
   .left {
     float:left;
-    clear: both;
+    width: 50%;
+    clear: right;
   }
 
   .right {
     float: right;
-    clear: both;
+    width: 50%;
   }
 
   .price {
     clear: both;
+  }
+
+  .learn-more {
+    padding: 0.5em 2em 0.5em 2em;
   }
 
 }

@@ -115,6 +115,14 @@ h2 {
   text-align: center;
 }
 
+.seven-pics2 {
+  display: block;
+  margin: 1em 0em 1em 0em;
+  padding: 1em 0em 1em 0em;
+  width: 100%;
+  text-align: center;
+}
+
 .giza {
   margin: 0em 1em 1em 1em;
 }
@@ -276,6 +284,24 @@ footer {
 }
 
 @media only screen and (min-width: 45em) {
+
+  .seven-pics {
+    float: left;
+    width: 50%;
+  }
+
+  .seven-pics2 {
+    float: right;
+    width: 50%;
+  }
+
+  .left {
+    float:left;
+  }
+
+  .right {
+    float: right;
+  }
 
 }
 

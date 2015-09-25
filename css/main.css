@@ -291,9 +291,41 @@ footer {
   nav a {
   	display: inline-block;
   	text-align: center;
-  	width: 3.33%;
+  	width: 100%;
   	color: black;
   	text-decoration: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  nav li {
+    float: left;
+    width: 25%;
+  }
+
+  .facts {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .facts dd {
+    float: left;
+    width: 33.33%;
+    padding-top: 1.5rem;
+  }
+
+  .facts dt {
+    position: absolute;
+    width: 33.33%;
+    top: 0;
+  }
+
+  .facts dt:nth-child(3) {
+    left: 33.33%;
+  }
+
+  .facts dt:nth-child(5) {
+    left: 66.66%;
   }
 
 }

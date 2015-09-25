@@ -187,18 +187,19 @@ p {
 .atlantis {
   position: relative;
   margin-top: 1em;
+  overflow: hidden;
 }
 
 .atlantis-text {
   position: absolute;
   text-align: center;
   width: 100%;
-  bottom: 2em;
+  top: 0;
 }
 
 .learn-more {
   display: block;
-  width: 50%;
+  width: 70%;
   text-align: center;
   text-decoration: none;
   background-color: #eadece;
@@ -228,38 +229,38 @@ ol {
 
 .adult {
   display: block;
-  width: 48%;
+  width: 70%;
   text-align: center;
   text-decoration: none;
   background-color: #eadece;
   padding: 0.5em;
   border: 1px solid #eadece;
   border-radius: 0.5em;
-  float:left;
+  margin: 1em auto 1em auto;
 }
 
 .kids {
   display: block;
-  width: 48%;
+  width: 50%;
   text-align: center;
   text-decoration: none;
   background-color: #eadece;
   padding: 0.5em;
   border: 1px solid #eadece;
   border-radius: 0.5em;
-  float: right;
+  margin: 0 auto;
 }
 
 .show-times {
   display: inline-block;
-  width: 30%;
+  width: 60%;
   text-align: center;
   text-decoration: none;
   background-color: #fff;
   padding: 0.5em;
   border: 1px solid #fff;
   border-radius: 0.5em;
-  margin-top: 1em;
+  margin-top: 0.1em;
 }
 
 footer {
@@ -290,7 +291,7 @@ footer {
   nav a {
   	display: inline-block;
   	text-align: center;
-  	width: 100%;
+  	width: 3.33%;
   	color: black;
   	text-decoration: none;
   }

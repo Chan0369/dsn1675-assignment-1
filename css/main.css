@@ -330,6 +330,10 @@ footer {
     width: 25%;
   }
 
+  .ancient {
+    padding-top: 20em;
+  }
+
   .facts {
     overflow: hidden;
     position: relative;

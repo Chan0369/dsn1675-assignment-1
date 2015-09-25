@@ -385,6 +385,16 @@ footer {
     float: right;
   }
 
+  .atlantis-text {
+    margin-top: 30em;
+  }
+
+  .show-times {
+      margin-top: 1em;
+  }
+
+}
+
 @media only screen and (min-width: 45em) {
 
   .left {
@@ -400,6 +410,65 @@ footer {
 
   .price {
     clear: both;
+  }
+
+  .facts {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .facts dd {
+    float: left;
+    width: 33.33%;
+    padding-top: 1.5rem;
+  }
+
+  .facts dt {
+    position: absolute;
+    width: 33.33%;
+    top: 0;
+  }
+
+  .facts dt:nth-child(3) {
+    left: 33.33%;
+  }
+
+  .facts dt:nth-child(5) {
+    left: 66.66%;
+  }
+
+  .adult {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    background-color: #eadece;
+    padding: 0.5em;
+    border: 1px solid #eadece;
+    border-radius: 0.5em;
+    margin: 0 auto;
+    float: left;
+  }
+
+  .kids {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    background-color: #eadece;
+    padding: 0.5em;
+    border: 1px solid #eadece;
+    border-radius: 0.5em;
+    margin: 0 auto;
+    float: right;
+  }
+
+  .atlantis-text {
+    margin-top: 30em;
+  }
+
+  .show-times {
+      margin-top: 1em;
   }
 
   .learn-more {
@@ -419,7 +488,8 @@ footer {
   }
 
   footer {
-    clear: both;
+    width: 30%;
+    float: left;
   }
 
 }
@@ -439,18 +509,33 @@ footer {
   .logo {
     display: block;
     vertical-align: middle;
+    float: none;
+    margin: 0 auto;
   }
 
-  .title {
-
+  .buy {
+    float: none;
+    margin: 0 auto;
+    clear: both;
   }
 
   .nav {
+    display: block;
     text-align: left;
+  }
+
+  .nav ol {
+    margin: 0 auto;
   }
 
   .nav li {
     display: block;
+    float: none;
+    width: 100%;
+  }
+
+  footer {
+    width: 70%;
   }
 
 }
